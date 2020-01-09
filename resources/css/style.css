@@ -1,0 +1,85 @@
+
+.logo {
+font-family: Roboto;
+font-weight: Normal;       
+}
+
+#navigation {
+    background-color: #ec312e;
+    padding: 10px;
+    margin: 10px;
+}
+
+li {
+    display: inline;
+    padding: 5px;
+}
+
+a {
+    color: #fff;
+    font-family: "Roboto Condensed",sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+.services {
+   font-family: "Roboto Condensed", sans-serif; 
+   font-weight: bold;
+   text-align: center;
+   color: #333;
+}   
+.content-center h3 {    
+    font-weight: bold;
+    color: #333;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+}
+#banner {
+  background-image: url("../images/14257.jpg");
+  background-position: center;
+  background-size: cover;  /*scales the background image */
+  height: 38rem;
+  width: auto;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  /*text-align: ;*/
+}
+
+#banner a {
+    text-
+    text-align: right;
+}
+
+.image-container {
+    overflow: hidden;
+}
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.images{
+    margin-bottom: 20%;
+}
+.images .image-container {
+    display: inline-block;
+    width: 50%;   
+}
+
+.images .image-container h2 {
+    margin-top: 11px;
+    text-shadow: 0 0 5px #484848;
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+
+
+
+
+  
+
+
+
+
