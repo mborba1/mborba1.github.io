@@ -8,108 +8,121 @@ body{
   font-weight: Normal;       
 }
 
-nav {
-    background-color: #ec312e;
-    padding: 10px;
-    margin: 0px;
+.menu-bar {
+    background-color: #3399ff;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
 }
 
-nav ul li {
-    display: inline;
-    width: 120px;
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.menu-bar ul li {
+    width: 100px;
     margin: 15px;
     padding: 15px;
-    position: relative;
 }
 
-nav ul li a {
-    color: #fff;
-    font-family: "Roboto Condensed",sans-serif;
-    cursor: pointer;
+.menu-bar ul li a {
     text-decoration: none;
-    font-size: 16px;
-    padding: 10px 15px;
-
+    font-size: 18px;
+    color: #fff
+}  
+.menu-bar ul li:hover {
+    background-color: #3399ff;
+    border-radius: 3px;
 }
-nav ul li ul {
+
+.sub-menu-1 {
     display: none;
-    position: absolute;
-    background-color: #f3f3f3;
-    padding: 8px;
-    border-radius: 0px 0px 4px 4px;
-}
-nav ul li:hover ul {
-    display: block;
-     
-}
-    
-nav ul li ul li {
-    width: 200px;
-    height: 200px;
-    border-radius: 4px;
-    
-}
-nav ul li ul li a {
-    padding: 8px 14px;
-    color: black;
-    display: inline;
-    
-}
-nav ul li ul li a:hover {
-    color: red;
 }
 
-nav ul li a:hover {
-    color: black;
-    
+.menu-bar ul li:hover .sub-menu-1  {
+    display: block;
+    position: absolute;
+    background-color: #84acd4;
+    margin-top: 15px;
+    margin-left: -10px;
 }
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+   width: 150px;
+   padding: 10px;
+   border-bottom: 1px dotted #fff;
+   background: transparent;
+   border-radius: 0;
+   text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+  color: #333;
+}
+
 .services {
    font-family: "Roboto Condensed", sans-serif; 
    font-weight: bold;
    text-align: center;
    color: #333;
 } 
-.content-center {
+.content-center, .content2-center {
     /*background-color: rgb(238, 238, 238);*/
     display: block;
-    padding: 10px;
+    padding: 8px;
 }  
-.content-center h3 {    
+.content-center h3, .content2-center h3 {    
     font-weight: bold;
     color: #333;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 700;
     line-height: 1.1;
     text-align: center;
-    font-size: 35px;    
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 11px;
+     
 }
 
-#banner {
-  background-image: url("../images/14257.jpg");
+.banner {
+  background-image: url("../images/5883.jpg");
   background-position: center;
   background-size: cover;  /*scales the background image */
-  height: 38rem;
-  width: auto;
+  height: 30rem;
   background-repeat: no-repeat;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-  padding-right: 10px; 
+  /*padding-right: 10px; */
 }
 
-#banner a {
+.banner a {
     text-align: right;
-    font-size: 12px;
+    font-size: 10px;
     place-content: flex-end;
     text-decoration: none;
-    color: white;
+    color: black;
     
 }
+
 .images {
     display: flex;
-    margin-bottom: 20%;   
+    margin-bottom: 5%; 
 }
-
+.images2 {
+    display: flex;
+    margin-bottom: 5%; 
+}
 .banner1 {
     background-image: url("../images/bike-parts-3-1543061-640x480.jpg");
     background-position: left; 
@@ -118,7 +131,7 @@ nav ul li a:hover {
     height: 300px;
     position: relative;
     text-align: center;
-    top: 100px;
+    top: 80px;
     width: 35%;
 }
 
@@ -130,7 +143,7 @@ nav ul li a:hover {
     height: 300px;
     position: relative;
     text-align: center;
-    top: 100px;
+    top: 80px;
     width: 35%;
 }
 
@@ -142,8 +155,54 @@ nav ul li a:hover {
     height: 300px;
     position: relative;
     text-align: center;
-    top: 100px;
+    top: 80px;
     width: 35%;
+}
+
+.banner4 {
+    background-image: url("../images/guarded-bicycle-parking-1511929.jpg");
+    background-position: 50% 50%;
+    /*padding: 5px;*/
+    background-size: cover;
+    border-bottom: 1px solid #dddddd;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    top: 80px;
+    width: 25%;
+}
+.banner5 {
+    background-image: url("../images/bike-wheel-1539723-639x958.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    border-bottom: 1px solid #dddddd;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    top: 80px;
+    width: 25%;
+}
+.banner6 {
+    background-image: url("../images/bike-me-1451221-640x480.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    border-bottom: 1px solid #dddddd;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    top: 80px;
+    width: 25%;
+}
+.banner7 {
+    background-image: url("../images/cycle-race-11-1435466-638x492.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    border-bottom: 1px solid #dddddd;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    top: 80px;
+    width: 25%;
 }
 
 .banner-text{
@@ -172,9 +231,10 @@ nav ul li a:hover {
 }
 
 .footer{
-    background-color: #ec312e;
+    background-color: #3399ff;
     padding: 30px;
     text-align: center;
+    margin-top: 150px;
 }
 .footer h2{
     color: #ffffff;
@@ -184,8 +244,71 @@ nav ul li a:hover {
     letter-spacing: 2px;
 }
 
+@media only screen and (max-width: 900px) {
+    body {
+      font-size: 12px;
+    }
+    
+    .images {
+      display: inline;
+      
+    }
+    .banner1 {
+        background-size: cover;
+        width: 100%;
+        border-bottom: 1px solid #dddddd;
+        text-align: center;
+        top: 80px;
+       
+    }
+    .banner2 {
+        background-size: cover;
+        width: 100%;
+        border-bottom: 1px solid #dddddd;
+        text-align: center;
+        top: 80px;
+       
+    }
+    .banner3 {
+        background-size: cover;
+        width: 100%;
+        border-bottom: 1px solid #dddddd;
+        text-align: center;
+        top: 80px;
+       
+    }
+   .banner4 {
+        background-size: cover;
+        width: 100%;
+        border-bottom: 1px solid #dddddd;
+        text-align: center;
+        top: 80px;
+    }
+    .banner5 {
+        background-size: cover;
+        width: 100%;
+        border-bottom: 1px solid #dddddd;
+        text-align: center;
+        top: 80px;
+    }
+    .banner6 {
+        background-size: cover;
+        width: 100%;
+        border-bottom: 1px solid #dddddd;
+        text-align: center;
+        top: 80px;       
+    }
+    .banner7 {
+        background-size: cover;
+        width: 100%;
+        border-bottom: 1px solid #dddddd;
+        text-align: center;
+        top: 80px;    
+    }
+    .content2-center h3{
+        margin-top: 100px;  
+    }  
+    
+  }
   
-
-
-
 
