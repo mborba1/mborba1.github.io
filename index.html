@@ -7,47 +7,178 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/586e95618b.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Bikecology Bike Shop</title>
 </head>
 <body>
     <h1 class="logo">BIKECOLOGY BIKE SHOP</h1>
+       <script src="js/add-content.js"></script>
     <p>
         <span>Mon - Fri: 10:00am - 6:00pm | </span>
         <span>Sat, Sun: 10:am - 5:00pm</span>
-    </p>    
+    </p>
+    <!--Start nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #9dc4ef;">
+      <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <ul id="navigation">
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Buyer's Guide</a></li>
-            <li><a href="#">Knowledge</a></li>
-            <li><a href="#">About Us</a></li>
-            
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Shop
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Bikes</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Parts</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Accessories</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Bike Repairs</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Bike Trade-In</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Rides and Events</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Buye's Guide
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Mountain Bikes</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Road Bikes</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Hybrid Bikes</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Knowledge
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Gravel Bikes Trek</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Bicycle Lubrication</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">How to Wash your Bike</a>
+            </div>
+          </li>
+         <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About Us
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Contact Us</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">About Bikecology</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Polices and Shipping</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Your Privacy</a>
+            </div>
+          </li>
+
         </ul>
-      
-        <div id="banner">
-          <h1></h1>
-          <a href="https://www.freepik.com/free-photos-vectors/logo" >Logo photo created by rawpixel.com - www.freepik.com</a>
-        </div>
-
-        </div>
-        <div class="content-center">
-          <h3>BIKECOLOGY BIKE SHOP SERVICES</h3>
-        </div>
-    
-        <div class="images">
-         <div class="image-container">
-          <img src="./resources/images/bike-parts-3-1543061-640x480.jpg" width="480"/>
-            <h2><span style="color: rgb(255, 255, 255);">Bike Repair</span></h2>
-         </div>
-         <div class="image-container">
-          <img src="./resources/images/bicycle-ride-1493816-640x480.jpg" width="480"/>
-            <h2><span style="color: rgb(255, 255, 255);">Trade Ins</span></h2>
-         </div>
-         <div class="image-container">
-          <img src="./resources/images/chris-races-1253272-638x422.jpg" width="480"/>
-            <h2><span style="color: rgb(255, 255, 255);">Rides & Events</span></h2>
-         </div>
+     <!--Search button-->
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      <!--End of search button-->
       </div>
+    </nav>
+    <!--end of navbar-->
+
+
+<div class="banner">
+    <a href="https://www.freepik.com/free-photos-vectors/travel">Travel photo created by jcomp - www.freepik.com</a>
+</div>
+  <div class="content-center">
+      <h3>Bikecology Bike Shop Services</h3>
+  </div>
+
+<div class="images">
+        <div class="banner1">
+            <div class="banner-text">
+              <h2>Bike Repair</h2>
+              <a href="#" class="imgbtn">Learn more</a>
+            </div>
+       </div>
+        <div class="banner2">
+            <div class="banner-text">
+              <h2>Trade Ins</h2>
+              <a href="#" class="imgbtn">Learn more</a>
+            </div>
+        </div>
+        <div class="banner3">
+            <div class="banner-text">
+              <h2>Rides & Events</h2>
+              <a href="#" class="imgbtn">Learn more</a>
+            </div>
+         </div>
+  </div>
+  <div class="content2-center">
+      <h3>Shop Bikecology Bike Shop</h3>
+  </div>
+  <div class="images2">
+      <div class="banner4">
+        <div class="banner-text">
+          <h2>Bikes</h2>
+          <a href="#" class="imgbtn">Shop Now</a>
+        </div>
+      </div>
+     <div class="banner5">
+      <div class="banner-text">
+         <h2>Parts</h2>
+          <a href="#" class="imgbtn">Shop Now</a>
+       </div>
+     </div>
+     <div class="banner6">
+      <div class="banner-text">
+        <h2>Accessories</h2>
+          <a href="#" class="imgbtn">Shop Now</a>
+      </div>
+     </div>
+     <div class="banner7">
+      <div class="banner-text">
+        <h2>Clothing</h2>
+          <a href="#" class="imgbtn">Shop Now</a>
+      </div>
+     </div>
+  </div>
+  <div class="footer">
+      <h2>227 West Union Ave, Somerville, MA 02129</h2>
+      <div class="social">
+        <i class="fab fa-twitter"> </i>
+        <i class="fab fa-facebook-square"> </i>
+        <i class="fab fa-instagram"> </i>
+    </div>
+  </div>
+</div>
+  </div>
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
 </body>
 </html>
