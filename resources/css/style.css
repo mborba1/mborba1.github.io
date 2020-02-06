@@ -1,15 +1,10 @@
 
 
-<<<<<<< HEAD
 * {
-=======
-body{
->>>>>>> 816bf1b4f30c1e708d9ace2a63ce92a24984416d
     font-family: "Roboto Condensed", sans-serif;
 }
 .logo {
   font-family: Roboto;
-<<<<<<< HEAD
   font-weight: Normal;
   align-content: center;
   margin-left: 30px;
@@ -26,86 +21,17 @@ p {
 .container{
   margin-right: 2px;
   margin-left: 2px;
-=======
-  font-weight: Normal;       
-}
 
-.menu-bar {
-    background-color: #3399ff;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-align: center;
 }
-
-.menu-bar ul {
-    display: inline-flex;
-    list-style: none;
-    color: #fff;
-}
-
-.menu-bar ul li {
-    width: 100px;
-    margin: 15px;
-    padding: 15px;
-}
-
-.menu-bar ul li a {
-    text-decoration: none;
-    font-size: 18px;
-    color: #fff
-}  
-.menu-bar ul li:hover {
-    background-color: #3399ff;
-    border-radius: 3px;
-}
->>>>>>> 816bf1b4f30c1e708d9ace2a63ce92a24984416d
-
-.sub-menu-1 {
-    display: none;
-}
-<<<<<<< HEAD
 .btn-outline-success {
     color: #e9ecef !important;
     border-color: #e9ecef !important;
 }
-=======
-
-.menu-bar ul li:hover .sub-menu-1  {
-    display: block;
-    position: absolute;
-    background-color: #84acd4;
-    margin-top: 15px;
-    margin-left: -10px;
-}
-
-.menu-bar ul li:hover .sub-menu-1 ul {
-    display: block;
-    margin: 10px;
-}
-
-.menu-bar ul li:hover .sub-menu-1 ul li {
-   width: 150px;
-   padding: 10px;
-   border-bottom: 1px dotted #fff;
-   background: transparent;
-   border-radius: 0;
-   text-align: left;
-}
-.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
-    border-bottom: none;
-}
-.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
-  color: #333;
-}
-
->>>>>>> 816bf1b4f30c1e708d9ace2a63ce92a24984416d
 .services {
    font-family: "Roboto Condensed", sans-serif;
    font-weight: bold;
    text-align: center;
    color: #333;
-<<<<<<< HEAD
 }
 .content-center, .content2-center {
     background-color: #9dc4ef;
@@ -113,15 +39,6 @@ p {
     padding: 8px;
 }
 .content-center h3, .content2-center h3 {
-=======
-} 
-.content-center, .content2-center {
-    /*background-color: rgb(238, 238, 238);*/
-    display: block;
-    padding: 8px;
-}  
-.content-center h3, .content2-center h3 {    
->>>>>>> 816bf1b4f30c1e708d9ace2a63ce92a24984416d
     font-weight: bold;
     color: #333;
     font-family: "Roboto Condensed", sans-serif;
@@ -131,7 +48,6 @@ p {
     font-size: 30px;
     margin-top: 50px;
     margin-bottom: 11px;
-<<<<<<< HEAD
 
 }
 
@@ -160,35 +76,10 @@ p {
     color: black;
     margin-top: 400px;
 
-=======
-     
-}
-
-.banner {
-  background-image: url("../images/5883.jpg");
-  background-position: center;
-  background-size: cover;  /*scales the background image */
-  height: 30rem;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  /*padding-right: 10px; */
-}
-
-.banner a {
-    text-align: right;
-    font-size: 10px;
-    place-content: flex-end;
-    text-decoration: none;
-    color: black;
-    
->>>>>>> 816bf1b4f30c1e708d9ace2a63ce92a24984416d
 }
 
 .images {
     display: flex;
-<<<<<<< HEAD
     margin-bottom: 10%;
     justify-content: space-between;
     background-size: cover;
@@ -223,48 +114,19 @@ p {
     width: 31%;
     border-radius: 2%;
     margin-bottom: 20px;
-=======
-    margin-bottom: 5%; 
-}
-.images2 {
-    display: flex;
-    margin-bottom: 5%; 
-}
-.banner1 {
-    background-image: url("../images/bike-parts-3-1543061-640x480.jpg");
-    background-position: left; 
-    background-size: cover;
-    border-bottom: 1px solid #dddddd;
-    height: 300px;
-    position: relative;
-    text-align: center;
-    top: 80px;
-    width: 35%;
->>>>>>> 816bf1b4f30c1e708d9ace2a63ce92a24984416d
 }
 
 .banner2{
     background-image: url("../images/bicycle-ride-1493816-640x480.jpg");
     background-position: center;
-<<<<<<< HEAD
     width: 31%;
     border-radius: 2%;
     margin-bottom: 20px;
-=======
-    background-size: cover;
-    border-bottom: 1px solid #dddddd;
-    height: 300px;
-    position: relative;
-    text-align: center;
-    top: 80px;
-    width: 35%;
->>>>>>> 816bf1b4f30c1e708d9ace2a63ce92a24984416d
 }
 
 .banner3 {
     background-image: url("../images/chris-races-1253272-638x422.jpg");
     background-position: right;
-<<<<<<< HEAD
     width: 31%;
     border-radius: 2%;
     margin-bottom: 20px;
@@ -301,73 +163,10 @@ p {
     font-size: 14px !important;
 }
 
-=======
-    background-size: cover;
-    border-bottom: 1px solid #dddddd;
-    height: 300px;
-    position: relative;
-    text-align: center;
-    top: 80px;
-    width: 35%;
-}
-
-.banner4 {
-    background-image: url("../images/guarded-bicycle-parking-1511929.jpg");
-    background-position: 50% 50%;
-    /*padding: 5px;*/
-    background-size: cover;
-    border-bottom: 1px solid #dddddd;
-    height: 300px;
-    position: relative;
-    text-align: center;
-    top: 80px;
-    width: 25%;
-}
-.banner5 {
-    background-image: url("../images/bike-wheel-1539723-639x958.jpg");
-    background-position: 50% 50%;
-    background-size: cover;
-    border-bottom: 1px solid #dddddd;
-    height: 300px;
-    position: relative;
-    text-align: center;
-    top: 80px;
-    width: 25%;
-}
-.banner6 {
-    background-image: url("../images/bike-me-1451221-640x480.jpg");
-    background-position: 50% 50%;
-    background-size: cover;
-    border-bottom: 1px solid #dddddd;
-    height: 300px;
-    position: relative;
-    text-align: center;
-    top: 80px;
-    width: 25%;
-}
-.banner7 {
-    background-image: url("../images/cycle-race-11-1435466-638x492.jpg");
-    background-position: 50% 50%;
-    background-size: cover;
-    border-bottom: 1px solid #dddddd;
-    height: 300px;
-    position: relative;
-    text-align: center;
-    top: 80px;
-    width: 25%;
-}
-
-.banner-text{
-    position: relative;
-    top: 100px;
-}
-
->>>>>>> 816bf1b4f30c1e708d9ace2a63ce92a24984416d
 .banner-text h2 {
     margin-top: 11px;
     text-shadow: 0 0 5px #484848 !important;
     font-family: "Roboto Condensed", sans-serif;
-<<<<<<< HEAD
     color: rgb(255, 255, 255);
 }
 
@@ -440,43 +239,12 @@ p {
 }
 .fab.fa-instagram::before{
     content: "\f16d";
-=======
-    color: rgb(255, 255, 255);    
-}
-
-.btn {
-   background-color: #ec312e;
-   text-decoration: none;
-   color: white;
-   font-family: "Roboto Condensed", sans-serif;
-   padding: 6px 12px;
-}
-
-.btn:active {
-    font-size: 18px;
-    transition: font-size .1s ease-in-out;
-}
-
-.footer{
-    background-color: #3399ff;
-    padding: 30px;
-    text-align: center;
-    margin-top: 150px;
-}
-.footer h2{
-    color: #ffffff;
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 14px;
-    font-weight: 100;
-    letter-spacing: 2px;
->>>>>>> 816bf1b4f30c1e708d9ace2a63ce92a24984416d
 }
 
 @media only screen and (max-width: 900px) {
     body {
       font-size: 12px;
     }
-<<<<<<< HEAD
     .images {
         background-size: cover;
         background-position: 50% 50%;
@@ -555,69 +323,4 @@ p {
     }
 
   }
-=======
-    
-    .images {
-      display: inline;
-      
-    }
-    .banner1 {
-        background-size: cover;
-        width: 100%;
-        border-bottom: 1px solid #dddddd;
-        text-align: center;
-        top: 80px;
-       
-    }
-    .banner2 {
-        background-size: cover;
-        width: 100%;
-        border-bottom: 1px solid #dddddd;
-        text-align: center;
-        top: 80px;
-       
-    }
-    .banner3 {
-        background-size: cover;
-        width: 100%;
-        border-bottom: 1px solid #dddddd;
-        text-align: center;
-        top: 80px;
-       
-    }
-   .banner4 {
-        background-size: cover;
-        width: 100%;
-        border-bottom: 1px solid #dddddd;
-        text-align: center;
-        top: 80px;
-    }
-    .banner5 {
-        background-size: cover;
-        width: 100%;
-        border-bottom: 1px solid #dddddd;
-        text-align: center;
-        top: 80px;
-    }
-    .banner6 {
-        background-size: cover;
-        width: 100%;
-        border-bottom: 1px solid #dddddd;
-        text-align: center;
-        top: 80px;       
-    }
-    .banner7 {
-        background-size: cover;
-        width: 100%;
-        border-bottom: 1px solid #dddddd;
-        text-align: center;
-        top: 80px;    
-    }
-    .content2-center h3{
-        margin-top: 100px;  
-    }  
-    
-  }
-  
 
->>>>>>> 816bf1b4f30c1e708d9ace2a63ce92a24984416d
