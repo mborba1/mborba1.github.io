@@ -81,6 +81,7 @@ p {
 .images {
     display: flex;
     margin-bottom: 10%;
+    margin-bottom: 10%;
     justify-content: space-between;
     background-size: cover;
     /*border-bottom: 1px solid #dddddd;*/
@@ -96,16 +97,15 @@ p {
 .images2 {
     display: flex;
     margin-bottom: 5%;
+    margin-top: 5%;
     justify-content: space-between;
     background-size: cover;
-    border-bottom: 1px solid #dddddd;
     height: 250px;
     position: relative;
     text-align: center;
     margin-left: 60px;
     margin-right: 60px;
-    top: 80px;
-
+    /*top: 80px;*/
 
 }
 .banner1 {
@@ -134,25 +134,29 @@ p {
 
 .banner4 {
     background-image: url("../images/guarded-bicycle-parking-1511929.jpg");
-    background-position: 50% 50%;
+    background-position: 30%;
+    background-size: cover;
     width: 24%;
     border-radius: 2%;
 }
 .banner5 {
     background-image: url("../images/bike-wheel-1539723-639x958.jpg");
-    background-position: 50% 50%;
+    background-position: 30%;
+    background-size: cover;
     width: 24%;
     border-radius: 2%;
 }
 .banner6 {
     background-image: url("../images/bike-me-1451221-640x480.jpg");
-    background-position: 50% 50%;
+    background-position: 30%;
+    background-size: cover;
     width: 24%;
     border-radius: 2%;
 }
 .banner7 {
     background-image: url("../images/cycle-race-11-1435466-638x492.jpg");
-    background-position: 50% 50%;
+    background-position: 30%;
+    background-size: cover;
     width: 24%;
     border-radius: 2%;
 }
@@ -248,11 +252,16 @@ p {
     .images {
         background-size: cover;
         background-position: 50% 50%;
-        padding: 45px 15px;
+        padding: 0px 15px;
         text-align: center;
         flex-direction: column;
-
+        align-items: center;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        height: 0%;
+        top: 0%;
     }
+    
     .banner1 {
         background-size: cover;
         background-position: 50% 50%;
@@ -260,8 +269,6 @@ p {
         text-align: center;
         flex-direction: column;
         width: 100%;
-
-
     }
     .banner2 {
         background-size: cover;
@@ -279,12 +286,32 @@ p {
         flex-direction: column;
         width: 100%;
     }
+    .banner-text {
+        font-size: 10px !important;
+        position: relative;
+        top: 0%;
+    }
+    h2 {
+        line-height: 0;
+        margin-bottom: 0rem;
+    }
     .images2{
         background-size: cover;
         background-position: 50% 50%;
         padding: 45px 15px;
         text-align: center;
         flex-direction: column;
+        display: flex;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        justify-content: space-between;
+        background-size: cover;  
+        position: relative;
+        margin-left: 60px;
+        margin-right: 60px;
+        align-items: center;
+        height: 0%;
+        top: 0%;
     }
     .banner4 {
         background-size: cover;
@@ -292,7 +319,7 @@ p {
         border-bottom: 1px solid #dddddd;
         text-align: center;
         flex-direction: column;
-        top: 80px;
+        /*top: 80px;*/
     }
     .banner5 {
         background-size: cover;
@@ -300,7 +327,7 @@ p {
         border-bottom: 1px solid #dddddd;
         text-align: center;
         flex-direction: column;
-        top: 80px;
+        /*top: 80px;*/
     }
     .banner6 {
         background-size: cover;
@@ -308,7 +335,7 @@ p {
         border-bottom: 1px solid #dddddd;
         text-align: center;
         flex-direction: column;
-        top: 80px;
+        /*top: 80px;*/
     }
     .banner7 {
         background-size: cover;
@@ -316,7 +343,7 @@ p {
         border-bottom: 1px solid #dddddd;
         text-align: center;
         flex-direction: column;
-        top: 80px;
+        /*top: 80px;*/
     }
     .content2-center h3{
         margin-top: 100px;
