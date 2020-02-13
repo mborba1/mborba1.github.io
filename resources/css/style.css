@@ -66,6 +66,19 @@ p {
     justify-content: flex-end;
     display: flex;
   }
+/*.carouselExampleIndicators{
+    
+    margin-left: 15%;
+    margin-right: 15% ;
+    padding-right: 10px;   
+} 
+.carousel-inner  .carousel-item {
+   height: 700px !important;
+   size: cover !important;
+   background-position: 70%;
+   background-repeat: no-repeat;
+
+} */
 
 .banner  a {
     text-align: right;
@@ -75,7 +88,6 @@ p {
     text-decoration: none;
     color: black;
     margin-top: 400px;
-
 }
 
 .images {
@@ -186,7 +198,70 @@ p {
     font-size: 16px !important;
     transition: font-size .1s ease-in-out !important;
 }
+/*--------side menu---------*/
+.side-menu{
+    height: 79%;
+    width: 15%;
+    font-size: 14px;
+    float: left;
+    z-index: 2;
+    background-color: #ddd;
+}
+.side-menu ul{
+    margin-left: 10px;
+}
+.side-menu ul li{
+    list-style-type: none;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.side-menu ul li:hover{
+    color: #9dc4ef;
+} 
+.side-menu ul li ul{
+    display: none;
+    z-index: 10;
+    top: 77px;
+}
+.side-menu ul li:hover ul{
+    display: block;
+}
+.fa-angle-right{
+    margin-top: 4px;
+    margin-right: 8px;
+    float: right;
+}   
+/*----------- bikes for sale session ----------------*/
+.bikes-for-sale, .on-sale{
+    margin:200px 0px;  
 
+} 
+.bikes-for-sale img, .on-sale img{
+    width: 100%;
+    padding: 20px 0;
+    transition: 1s;
+    cursor: pointer;
+}
+.bikes-for-sale img:hover, .on-sale img:hover{
+    transform: scale(1.1);
+}
+
+/*----------------------for sale items -------------*/
+.title-box {
+    background:#9dc4ef;
+    color: #fff;
+    width: 100px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    
+}
+.title-box h3{
+    font-size: 24px;
+}
+/*---------footer session--------------*/
 .footer{
     background-color: #9dc4ef;
     padding: 30px;
@@ -244,7 +319,7 @@ p {
 .fab.fa-instagram::before{
     content: "\f16d";
 }
-
+/*-------------responsive website session--------------*/
 @media only screen and (max-width: 900px) {
     body {
       font-size: 12px;
@@ -292,9 +367,12 @@ p {
         top: 0%;
     }
     h2 {
-        line-height: 0;
-        margin-bottom: 0rem;
+        line-height: 2;
+        margin-bottom: 0.5rem;
     }
+    .imgbtn {
+       line-height: 3.5;
+}
     .images2{
         background-size: cover;
         background-position: 50% 50%;
@@ -348,5 +426,12 @@ p {
     .content2-center h3{
         margin-top: 100px;
     }
+    .side-menu {
+      width: 34%; 
+      z-index: 20; 
+      top: 133px;
+    
+    }
 
+    
   }
