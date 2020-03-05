@@ -106,15 +106,13 @@
                 </ul>
                 <!--Search button-->
                 <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control mr-sm-2" type="search" id="filter-search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
                 <!--End of search button-->
             </div>
         </nav>
         <!--end of navbar-->
-
-
     
     <section class="header">
     <div class="side-menu">
@@ -131,8 +129,8 @@
            <ul>
              <li>Specialized</li>
              <li>Cannondale</li>
-             <li>Raleigh</li>
-             <li>Diamonback</li>
+             <li>Scott</li>
+             <li>Trek</li>
            </ul>
           </li>
           <li>Material<i class="fa fa-angle-right"></i>
@@ -145,23 +143,78 @@
       </ul>
     </div>    
     </section>
-
+    
     <!---------bike pictures section--------->
 
     <section class="bikes-for-sale">
      <div class="container">
          <div class="row">
             <div class="col-md-4">
-                <img src="resources/images/mountain-bike-1450482-639x378.jpg">
+                <img src="resources/images/mountain-bike-1450482-639x378.jpg" alt="Specialized Turbo Como 2.0 650b">
+                <span class="title">Specialized Turbo Como 2.0 650b</span>
+                <div class="price">
+                    <div>
+                        <span class="productNormalPrice">Price: $2,349.99</span>
+                    </div>
+                    <button class="add-to-cart" type="button">Add to cart</button>
+                </div>
             </div> 
             <div class="col-md-4">
-                <img src="resources/images/mountain-bike-1450482-639x378.jpg">
+                <img src="resources/images/mountain-bike-1450482-639x378.jpg" alt="Specialized Turbo Creo SL Expert EVO">
+                <span class="title">Specialized Turbo Creo SL Expert EVO</span>
+                <div class="price">
+                    <div>
+                        <span class="productNormalPrice">Price: $9,850.99</span>
+                    </div>
+                    <button class="add-to-cart" type="button">Add to cart</button>
+                </div>
             </div>
             <div class="col-md-4">
-               <img src="resources/images/mountain-bike-1450482-639x378.jpg">
+               <img src="resources/images/mountain-bike-1450482-639x378.jpg" alt="Cannondale Althea 3">
+               <span class="title">Cannondale Althea 3</span>
+               <div class="price">
+                <div>
+                    <span class="productNormalPrice">Price: $1,499.99</span>
+                </div>
+                <button class="add-to-cart" type="button">Add to cart</button>
+            </div>
             </div>
          </div>
      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="resources/images/mountain-bike-1450482-639x378.jpg" alt="Specialized Turbo Como 2.0 650b">
+                <span class="title">Specialized Turbo Como 2.0 650b</span>
+                <div class="price">
+                    <div>
+                        <span class="productNormalPrice">Price: $1,149.99</span>
+                    </div>
+                    <button class="add-to-cart" type="button">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="resources/images/mountain-bike-1450482-639x378.jpg" alt="Specialized Turbo Creo SL Expert EVO">
+                <span class="title">Specialized Turbo Creo SL Expert EVO</span>
+                <div class="price">
+                    <div>
+                        <span class="productNormalPrice">Price: $5,750.99</span>
+                    </div>
+                    <button class="add-to-cart" type="button">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="resources/images/mountain-bike-1450482-639x378.jpg" alt="Cannondale Althea 3">
+                <span class="title">Cannondale Althea 3</span>
+                <div class="price">
+                    <div>
+                        <span class="productNormalPrice">Price: $2,499.99</span>
+                    </div>
+                    <button class="add-to-cart" type="button">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
     </section>
    <!----------on sale items -------->
    <section class="on-sale">
@@ -171,28 +224,57 @@
            </div>
         <div class="row">
             <div class="col-md-3">
-                <img src="resources/images/mountain-bike-1450482-639x378.jpg">
+                <img src="resources/images/mountain-bike-1450482-639x378.jpg" alt="Cannondale Adventure Women's 3">
+                <span class="title">Cannondale Adventure Women's 3</span>
+                <div class="price">
+                    <div>
+                        <span class="productSalePrice">Price: $407.99</span>
+                    </div>
+                    <button class="add-to-cart" type="button">Add to cart</button>
+                </div>
             </div>
             <div class="col-md-3">
-                <img src="resources/images/mountain-bike-1450482-639x378.jpg">
+                <img src="resources/images/mountain-bike-1450482-639x378.jpg" alt="Scott Scale 970">
+                <span class="title">Scott Scale 970</span>
+                <div class="price">
+                    <div>
+                        <span class="productSalePrice">Price: $399.99</span>
+                    </div>
+                    <button class="add-to-cart" type="button">Add to cart</button>
+                </div>
             </div>
             <div class="col-md-3">
-                <img src="resources/images/mountain-bike-1450482-639x378.jpg">
+                <img src="resources/images/mountain-bike-1450482-639x378.jpg" alt="Scott Spark RC 900 Pro">
+                <span class="title">Scott Spark RC 900 Prod</span>
+                <div class="price">
+                    <div>
+                        <span class="productSalePrice">Price: $4,299.99</span>
+                    </div>
+                    <button class="add-to-cart" type="button">Add to cart</button>
+                </div>
             </div>
             <div class="col-md-3">
-                <img src="resources/images/mountain-bike-1450482-639x378.jpg">
+                <img src="resources/images/mountain-bike-1450482-639x378.jpg" alt="Trek Dual Sport 2">
+                <span class="title">Trek Dual Sport 2</span>
+                <div class="price">
+                    <div>
+                        <span class="productSalePrice">Price: $599.00</span>
+                    </div>
+                    <button class="add-to-cart" type="button">Add to cart</button>
+                </div>
+
             </div>
         </div>
         </div>
    </section>
-    <!--div class="footer">
+    <div class="footer">
         <h2>227 West Union Ave, Somerville, MA 02129</h2>
         <div class="social">
             <i class="fab fa-twitter"></i>
             <i class="fab fa-facebook-square"></i>
             <i class="fab fa-instagram"></i>
         </div>
-    </div-->
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
