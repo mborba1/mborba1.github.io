@@ -2,6 +2,7 @@
 
 * {
     font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
 }
 .logo {
   font-family: Roboto;
@@ -182,44 +183,10 @@ p {
     font-size: 16px !important;
     transition: font-size .1s ease-in-out !important;
 }
-/*--------side menu---------*/
-.side-menu{
-    height: 79%;
-    width: 15%;
-    font-size: 14px;
-    float: left;
-    z-index: 2;
-    background-color: #ddd;
-}
-.side-menu ul{
-    margin-left: 10px;
-}
-.side-menu ul li{
-    list-style-type: none;
-    font-weight: bold;
-    margin-top: 10px;
-    cursor: pointer;
-}
-.side-menu ul li:hover{
-    color: #9dc4ef;
-} 
-.side-menu ul li ul{
-    display: none;
-    z-index: 10;
-    top: 77px;
-}
-.side-menu ul li:hover ul{
-    display: block;
-}
-.fa-angle-right{
-    margin-top: 4px;
-    margin-right: 8px;
-    float: right;
-} 
 
 /*----------- bikes for sale session ----------------*/
 .bikes-for-sale, .on-sale{
-    margin:200px 0px;  
+    margin:0px 0px;  
 
 } 
 .bikes-for-sale img, .on-sale img{
@@ -227,7 +194,7 @@ p {
     padding: 20px 0;
     transition: 1s;
     cursor: pointer;
-    margin-top: 50%;
+    margin-top: 20%;
 }
 
 .title, .price {
@@ -243,9 +210,9 @@ p {
 .add-to-cart, .button {
     margin-top: 15px;
 }
-/*.bikes-for-sale img:hover, .on-sale img:hover{
+.bikes-for-sale img:hover, .on-sale img:hover{
     transform: scale(1.1);
-}*/
+}
 
 
 /*----------------------for sale items -------------*/
@@ -255,12 +222,100 @@ p {
     width: 100px;
     padding: 4px 10px;
     height: 40px;
-    margin-bottom: 30px;
+    margin-top: 60px;
+    margin-bottom: 10px;
     display: flex;
     
 }
 .title-box h3{
     font-size: 24px;
+}
+
+/*----------Cart session---------------*/
+.cart-header {
+    font-weight: bold;
+    font-size: 1em;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+
+}
+ 
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+ 
+.cart-row {
+    display: flex;
+}
+ 
+.cart-item {
+    width: 45%;
+}
+ 
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+ 
+.cart-quantity {
+    width: 35%;
+}
+ 
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+ 
+.cart-item-image {
+    width: 75px;
+    height: auto;
+}
+.cart-quantity-input{
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #3f90e7;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+.cart-total{
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.cart-total-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+    margin-right: 20px;
+}
+.cart-total-price{
+    color: #333;
+    font-size: 1.1em;
+}
+.btn-purchase{
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+.btn-primary{    
+    background-color: #3f90e7;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: .3em;
 }
 /*---------footer session--------------*/
 
@@ -492,6 +547,12 @@ p {
       top: 133px;
     
     }
-
+    .footer form {
+    background: #f7f4ff;
+    border-radius: .3rem;
+    padding: 1.3rem;
+    width: auto;
+    margin: 2rem auto;
+    box-shadow: 12px 12px 5px 0px rgba(0, 0, 0, .08);
+    }
     
-  }
